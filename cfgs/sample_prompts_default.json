@@ -1,0 +1,19 @@
+{
+  "batch_size": 1,		
+  "seed": -1,
+  "cfgs": [5, 7],
+  "scheduler": "dpm++",		
+  "num_inference_steps": 15,	
+  "show_progress_bars": true, 
+  "samples": [
+    {
+      "random_caption": true,		
+      "size": [640, 640]
+    },
+    {
+      "random_caption": true,   
+      "cfgs": [9,11],      
+      "size": [640, 640]
+    }
+  ]
+}
